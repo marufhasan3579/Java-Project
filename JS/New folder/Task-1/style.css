@@ -1,0 +1,30 @@
+.Press
+{
+	text-align: center;
+}
+.div-1
+{
+	text-align: center;
+	padding:5;
+	font-weight: bold;
+}
+#toBlue
+{
+	background-color:blue;
+}
+#toGreen
+{
+	background-color: green;
+}
+#toRed
+{
+	background-color: red;
+}
+button
+{
+	width: 50px;
+   height: 25px;
+
+
+  border-radius: 30px;
+}

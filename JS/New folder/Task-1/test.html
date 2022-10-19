@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Using Press button change color</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <p class="Press">Press the button</p>
+   <div class="div-1">
+      <button id="toBlue">Blue</button>
+      <button id="toGreen">Green</button>
+      <button id="toRed">Red</button>
+
+      <p id="output_text">HELLO ODCL PLZ CHANGE THE COLOR</p>
+   </div>
+   
+
+   <script>
+      document.getElementById("toBlue").onclick = function()
+      {
+         document.getElementById("output_text").style.color = "blue"
+      }
+      document.getElementById("toGreen").onclick = function()
+      {
+         document.getElementById("output_text").style.color = "green"
+      }
+      document.getElementById("toRed").onclick = function()
+      {
+         document.getElementById("output_text").style.color = "#8b0000"
+      }
+      const btn = document.getElementById('btn');
+ 
+// toBlue.addEventListener('click', function onClick()
+//  {
+//   toBlue.style.backgroundColor = 'blue';
+//   toBlue.style.color = 'blue';
+// });
+// toGreen.addEventListener('click', function onClick()
+//  {
+//   toGreen.style.backgroundColor = 'green';
+//   toGreen.style.color = 'green';
+// });
+// toRed.addEventListener('click', function onClick()
+//  {
+//   toRed.style.backgroundColor = 'red';
+//   toRed.style.color = 'red';
+// });
+
+
+   </script>
+
+
+</body>
+</html>
